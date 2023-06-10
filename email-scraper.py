@@ -14,6 +14,6 @@ for i in links:
     match = re.findall('\S+@\S+' , string_email_raw)   
     
     
-    with open('D:\coding\Python\emails.txt', mode='a', encoding='utf-8') as myfile:
+    with open('emails.txt', mode='a', encoding='utf-8') as myfile:
             myfile.write('\n'.join(match))
             myfile.write('\n')
